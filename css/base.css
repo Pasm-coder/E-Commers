@@ -16,5 +16,11 @@
     --playfair: 'Playfair Display', sans-serif;
     }
     
+    *{
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    
 
 
