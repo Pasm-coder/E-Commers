@@ -5,7 +5,7 @@
 
     --lightblue: #dcecf4;
 
-    --lightblue: #000000;
+    --black: #000000;
 
     --baloot: 'Baloo Tammudu 2', sans-serif;
 
@@ -14,6 +14,13 @@
     --noto: 'Noto Sans HK', sans-serif;
 
     --playfair: 'Playfair Display', sans-serif;
+    }
+
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
     }
     
 
