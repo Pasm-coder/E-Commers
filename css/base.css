@@ -2,24 +2,19 @@
     --yelow:#fcc404;
 
     --white:#ffff;
-
+    
     --lightblue: #dcecf4;
 
-    --lightblue: #000000;
+    --black: #000000;
 
+ /* cascada */
     --baloot: 'Baloo Tammudu 2', sans-serif;
-
+/* contenido */
     --monstserrat: 'Montserrat', sans-serif;
-
+/* subtitulos */
     --noto: 'Noto Sans HK', sans-serif;
-
+/* para titulo */
     --playfair: 'Playfair Display', sans-serif;
-    }
-    
-    *{
-        padding: 0;
-        border: 0;
-        box-sizing: border-box;
     }
     
 
