@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/designed.css">
     <link rel="stylesheet" href="./css/tarjetas.css">
     <link rel="stylesheet" href="./css/carrusel.css">
+    <link rel="stylesheet" href="./css/formulario.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,13 +24,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-
-
     <title>SunnyLenses</title>
 </head>
 
 <body>
-
     <section>
         <header>
             <div class="logo"><i class="fa-solid fa-sun"></i>
@@ -137,13 +135,12 @@
 </div>                     
     </section>
    
-  
 
     <!-- Designed -->
     
-    
+<!--     
     <section class="designed_linea">
-
+        <div>
         <img src="image/hombre.jpeg" class="designed_hombre">
         <img src="image/mujer.jpeg" class="designed_mujer">
         <img src="image/circulo1.png" class="designed_circulo1">
@@ -154,40 +151,32 @@
             <h4 class="designed_subtitulo"> Designed by you</h4>
             <h1 class="designed_titulo"> Individual style </h1>
             <p class="designed_texto"> Like a bespoke suit or couture dress, exceptional style starts with fit that was made just for you. We craft your glasses based to your distinct stylistic choices and your personal preferences, so you’re free to truly express yourself. </p>
-
-        </div>
- 
-
-    </section> 
-    
-
+        </div> -->
 
     <!-- Trajetas -->
 
     <section class="caja_grande">
         <div class="div_grande">
-        
-          <div class="caja1">
-             <h3 class="tarjetas_titulo">Find a location</h3>
-             <i class="fa-solid fa-location-arrow fa-4x"></i>
-             <p class="tarjetas_texto alinear">Learn more</p> 
-             <i class="fa-solid fa-arrow-right alinear"></i> 
-         </div>
+            <div class="caja1">
+                <h3 class="tarjetas_titulo">Find a location</h3>
+                <i class="fa-solid fa-location-arrow fa-4x"></i>
+                <p class="tarjetas_texto alinear">Learn more</p> 
+                <i class="fa-solid fa-arrow-right alinear"></i> 
+            </div>
 
-         <div class="caja2"> 
-             <h3 class="tarjetas_titulo">Browse our frame styles</h3>
-             <i class="fa-solid fa-glasses fa-4x"></i>
-             <p class="tarjetas_texto alinear">Learn more</p>
-             <i class="fa-solid fa-arrow-right alinear"></i> 
-         </div>
+            <div class="caja2"> 
+                <h3 class="tarjetas_titulo">Browse our frame styles</h3>
+                <i class="fa-solid fa-glasses fa-4x"></i>
+                <p class="tarjetas_texto alinear">Learn more</p>
+                <i class="fa-solid fa-arrow-right alinear"></i> 
+            </div>
 
-         <div class="caja3"> 
-             <h3 class="tarjetas_titulo">Explore our lens option</h3>
-             <i class="fa-solid fa-magnifying-glass fa-4x"></i>
-             <p class="tarjetas_texto alinear">Learn more</p>
-             <i class="fa-solid fa-arrow-right alinear"></i>
-        </div>
-
+            <div class="caja3"> 
+                <h3 class="tarjetas_titulo">Explore our lens option</h3>
+                <i class="fa-solid fa-magnifying-glass fa-4x"></i>
+                <p class="tarjetas_texto alinear">Learn more</p>
+                <i class="fa-solid fa-arrow-right alinear"></i>
+            </div>
         </div>
     </section>
 
@@ -197,10 +186,80 @@
 
     </section>
 
+
+
+    
     <!-- Formulario -->
     <section>
-
+        <form action="" class="form-bigbox">
+            <div  class="title-box">
+                <h2 class="title-form">SEND US A MESSAGE</h2>
+            </div>
+            <div class="box-underbox">
+                <div class="date-inputs">
+                    <div class="username">
+                        <h3>your name</h3>
+                        <label for="">
+                            <i class="fa-solid fa-user"></i>
+                            <input placeholder="  full name" minlength="6" type="text">
+                        </label>
+                    </div>
+                    <div class="emailtext">
+                        <h3>your email</h3>
+                        <label for="">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input placeholder="  email@example.com" minlength="6" type="email">
+                        </label>
+                    </div>
+                    <div class="number-phone">
+                        <h3>Number phone</h3>
+                        <label for="">
+                            <i class="fa-solid fa-square-phone"></i>
+                            <input placeholder="  3xx-xxx-xxxx" type="text">
+                        </label>
+                    </div>
+                    <div class="adress-form">
+                        <h3>adress</h3>
+                        <label for="">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <input placeholder="  cll xx #x-x" type="text">
+                        </label>
+                    </div>
+                    <div class="date-form">
+                        <h3>date of birth</h3>
+                        <label for="">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <input type="date">
+                        </label>
+                    </div>
+                </div>
+                <div class="submit-form">
+                    <textarea placeholder="  put your message here" cols="30" rows="20" type="text" class="text-content"></textarea>
+                    <button type="reset" class="  button-send">SUBMIT</button>
+                </div>
+            </div>
+        </form>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
