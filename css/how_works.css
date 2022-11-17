@@ -44,14 +44,16 @@
 }
 
 
-.how_linea{
-  
-    color:rgba(148, 147, 147, 0.466);
-    border: 1px;
-    border-style:dashed;
+.how_linea{   
 
-    
+    color:rgba(148, 147, 147, 0.466);
+     border: 1px;
+     border-style:dashed;
+     
     }
+    
+
+
 
 .how_lista{
     display: flex;
