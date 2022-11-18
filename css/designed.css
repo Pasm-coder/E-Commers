@@ -31,7 +31,7 @@
     font-family: var(--noto);
     position: absolute;
 	left: 750px;
-	top:100px;
+	top:1655px;
 	
 
 }
@@ -42,7 +42,7 @@
 
     position: absolute;
 	left: 750px;
-	top:140px;
+	top:1600px;
 
 	
     
@@ -57,7 +57,7 @@
 
     position: absolute;
 	left: 750px;
-	top:200px;
+	top:1700px;
 	
 	
 }
@@ -66,6 +66,8 @@
 .designed_linea{
     background-color: #dcecf4;
     padding-bottom: 700px;
+    top: 1000px;
+    
 
 }
 
@@ -76,7 +78,7 @@
     height: 700px;
     position:absolute;
     left: 70px;
-    top: 0px;
+    top: 1500px;
     border-radius: 0px; 
 }
 
@@ -86,7 +88,7 @@
     height: 700px;
     position:absolute;
     left: 280px;
-    top: 20px;
+    top: 1560px;
     
     border-radius: 0px; 
 
@@ -100,7 +102,7 @@
 
     width: 25%;
     left: 300px;
-    top: 50px;
+    top: 1600px;
     
     
     border-radius: 0px; 
@@ -113,7 +115,7 @@
 
     width: 25%;
     left: 650px;
-    top: 450px;
+    top: 1979px;
     
     border-radius: 0px; 
     
@@ -125,7 +127,7 @@
 
     width: 20%;
     left: 900px;
-    top: 350px;
+    top: 1850px;
     
     border-radius: 0px; 
 }
@@ -138,8 +140,8 @@
         font-family: var(--noto);
     
         position: absolute;
-        left: 30px;
-        top:100px;
+        left: 100px;
+        top:3000px;
         
         
     
@@ -173,8 +175,8 @@
     
     /*  Fondo e imagenes*/
     .designed_linea{
-        background-color: #dcecf4;
-        padding-bottom: 1200px;
+        background-color: var(--lightblue);
+        padding-bottom: 4000px;
     
     }
     
@@ -185,7 +187,7 @@
         height: 60%;
         position:absolute;
         left: 50px;
-        top: 400px;
+        top: 3000px;
         
         border-radius: 0px; 
         
@@ -254,7 +256,7 @@
     
         position: absolute;
         left: 550px;
-        top:150px;
+        top:1760px;
         
     
     }
@@ -265,7 +267,7 @@
     
         position: absolute;
         left: 550px;
-        top: 180px;
+        top: 1800px;
     
         
         
@@ -280,7 +282,7 @@
     
         position: absolute;
         left: 550px;
-        top:250px;
+        top:1860px;
         
         
     }
@@ -299,11 +301,9 @@
         height: 700px;
         position:absolute;
         left: 70px;
-        top: 0px;
+        top: 1690px;
         
         border-radius: 0px; 
-        
-        
         
     
     }
@@ -314,7 +314,7 @@
         height: 700px;
         position:absolute;
         left: 200px;
-        top: 20px;
+        top: 1740px;
         
         border-radius: 0px; 
     
@@ -328,7 +328,7 @@
     
         width: 30%;
         left: 250px;
-        top: 50px;
+        top: 1800px;
         
         
         border-radius: 0px; 
@@ -340,8 +340,8 @@
         position:absolute;
     
         width: 30%;
-        left: 450px;
-        top: 460px;
+        left: 400px;
+        top: 2155px;
         
         border-radius: 0px; 
         
@@ -352,8 +352,8 @@
         position:absolute;
     
         width: 25%;
-        left: 650px;
-        top: 400px;
+        left: 600px;
+        top: 2060px;
         
         border-radius: 0px; 
     }
